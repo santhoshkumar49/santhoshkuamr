@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background: url('https://wallpaperaccess.com/full/2314950.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.login-form h1 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.login-form p {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    background:black rgba(190, 145, 145, 0.3);
+    color: rgb(7, 7, 7);
+}
+
+.login-form button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background: #ffa07a;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login-form .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.login-form .options a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-form .social-login {
+    margin-top: 20px;
+}
+
+.login-form .social-login p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.login-form .social-login button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.login-form .social-login .facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.login-form .social-login .twitter {
+    background: #1da1f2;
+    color: white;
+}
